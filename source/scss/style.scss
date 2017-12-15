@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+.color-title {
+	color: red;
+}
+
+@import 'vars.scss';
+@import 'mixins.scss';
+// @import 'placeholders.scss';
+@import 'grid/grid.scss';
+@import 'navbar/navbar.scss';

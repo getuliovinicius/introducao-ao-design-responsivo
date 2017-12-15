@@ -1,0 +1,37 @@
+{
+  "name": "introducao-ao-design-responsivo",
+  "version": "1.0.0",
+  "description": "Atividade do módulo 6 - Introdução ao design responsivo - do curso Certificação Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getuliovinicius/introducao-ao-design-responsivo.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "certificacao",
+    "atividade",
+    "workflow",
+    "gulp"
+  ],
+  "author": "Getulio Vinicius <getuliovinits@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/getuliovinicius/introducao-ao-design-responsivo/issues"
+  },
+  "homepage": "https://github.com/getuliovinicius/introducao-ao-design-responsivo#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "notify-send": "^0.1.2"
+  },
+  "dependencies": {}
+}

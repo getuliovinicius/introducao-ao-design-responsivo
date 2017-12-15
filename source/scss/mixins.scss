@@ -1,0 +1,14 @@
+@mixin navbarContainer ($border, $bg, $color) {
+	width: auto;
+	height: 60px;
+	margin: $navbar-margin;
+	border: $border;
+	background-color: $bg;
+	color: $color;
+}
+
+@mixin navbarItem ($float, $font-size) {
+	height: auto;
+	float: $float;
+	font-size: $font-size;
+}

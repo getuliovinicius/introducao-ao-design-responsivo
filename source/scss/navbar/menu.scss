@@ -1,0 +1,20 @@
+.navbar-menu {
+	@include navbarItem(right, $navbar-menu-font-size);
+	list-style: none;
+}
+
+.navbar-menu-item {
+	padding: $navbar-menu-pading;
+	display: inline;
+	&:hover {
+		background-color: $navbar-bg-hover;
+	}
+}
+
+.navbar-menu-item a {
+	color: $navbar-color;
+	text-decoration: none;
+	&:hover {
+		color: $navbar-color-hover;
+	}
+}
